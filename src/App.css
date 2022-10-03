@@ -1,5 +1,19 @@
-.square {
+
+h1 {
+  text-align: center;
+}
+
+.squares {
   height: 100px;
   width: 100px;
   border: 2px solid black;
+  font-size: 5rem;
+  text-align: center;
+}
+
+.board-game {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  margin: 0 auto;
 }
